@@ -1,6 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import React, { ReactNode } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Card: React.FC = ({ children }) => {
+interface CardProps {
+  children: ReactNode;
+}
+
+const Card: React.FC<CardProps> = ({ children }) => {
   return <div className="hstack p-2 h-100">{children}</div>;
 };
 
