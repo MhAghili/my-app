@@ -124,7 +124,6 @@ export const showFiltredData = createAsyncThunk(
         interests: [...state.intrested],
       },
     };
-    console.log(body)
     thunkAPI.dispatch(filtersActions.setError({ isError: false, message: "" }));
     thunkAPI.dispatch(filtersActions.setIsLoading(true));
     try {
