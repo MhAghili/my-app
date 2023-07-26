@@ -1,11 +1,18 @@
+/* Import Tailwind CSS directly */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Your custom CSS goes here */
 html {
   height: 100% !important;
 }
 
 body {
   height: 100% !important;
-  padding-top: 39px;
+  padding-top: 60px;
 }
+
 #__next {
   height: 100% !important;
 }
